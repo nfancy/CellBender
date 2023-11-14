@@ -18,7 +18,7 @@ jobs:
       uses: docker/build-push-action@v4
       with:
           load: true
-          file: ./Dockerfile
+          file: ./docker/Dockerfile
           tags: |
             nfancy/cellbender:0.3.0
       
